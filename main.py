@@ -5,7 +5,7 @@
 # Import the pygame and system modules
 import pygame
 import sys
-
+import config
 # --- Constants --- #
 
 SCREEN_WIDTH = 800
@@ -26,7 +26,12 @@ pygame.display.set_caption('Pygame Template')
 # --- Clock setup --- #
 clock = pygame.time.Clock() #The capital C in CLock is important
 
+
 # --- Game loop --- #
+
+
+
+
 running = True
 while running:
     # --- liston for and handle events --- #
@@ -40,6 +45,7 @@ while running:
     screen.fill(WHITE)
 
     # This is where you draw game objects:
+    
 
     pygame.display.flip() # updateing the display
 
